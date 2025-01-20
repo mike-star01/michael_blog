@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #975318;
+    line-height: 2;
+}
+
+#showcase{
+    background-image: url('imgshowcase.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: o 20px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+#showcase h1{
+    font-size: 47px;
+    color: bisque;
+    line-height: 1.2;
+    border: #ffbc74 5px solid;
+    padding: 8px 18px;
+    border-radius: 10px;
+    font-family: "Normal", serif;
+}
+
+#showcase p{
+    font: Estonia;
+    font-size: 35px;
+    color: bisque;
+    font-family: "Estonia", serif;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(255, 228, 196, 0.419);
+    border: #ffbc74 1px solid;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: "charm", serif;
+}
+
+#showcase .button:hover{
+    background: #ffbc7438;
+    color: bisque;
+}
+#section-a{
+    padding: 20px;
+    background: #b3a49a;
+    color: #fff;
+    text-align: center;
+}
+#section-b{
+    padding: 20px;
+    background: #746e68;
+    color: #fff;
+    text-align: center;
+}
+#section-c{
+    display: flex;
+}
+#section-c div{
+    padding: 20px;
+}
+#section-c .box-1, #section-c .box-2, #section-c .box-3{
+    background: #b3a49a;
+    color: #fff;
+}
+
