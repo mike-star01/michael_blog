@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('background.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #ffffff68;
+    padding: 80px;
+    margin: 6% auto 0;
+    margin-left: 760px; /* Adds extra space on the left */
+    text-align: center;
+    border-radius: 20px;
+}
+.sign-up-form h1
+{
+    color: #c03030;
+    margin-bottom: 30px;
+    font-size: 48.65px;
+    margin-top: auto;
+}
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #c03030;
+    outline: none;
+    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    text-align: left; /* Aligns input text to the left */
+}
+ button
+ {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+ }
+ .signup-btn
+ {
+    background-color: #c03030;
+    
+ }
+ .signup-btn:hover{
+    background: #e462626d;
+    color: #c03030;
+}
+ .google-btn
+{
+    background-color: #c03030;
+}
+.google-btn:hover{
+    background: #e462626d;
+    color: #c03030;
+}
+a
+{
+    text-decoration: none;
+    margin-left: 10px;
+}
+hr
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.or
+{
+    background: #f4f4f4ec;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img 
+{
+    width: 70px;
+    margin-top: -50px;
+}
+input[type="checkbox"] {
+    appearance: none; /* Remove the default checkbox styling */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #c03030; /* Red border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    outline: none;
+    cursor: pointer;
+    background-color: pink; /* Pink background */
+}
+
+input[type="checkbox"]:checked {
+    background-color: pink; /* Maintain pink background when checked */
+    border-color: #c03030; /* Red border remains */
+    position: relative;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✔'; /* Custom red checkmark */
+    color: red; /* Checkmark color */
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 4px;
+}
+p {
+    display: flex;
+    margin-left: 25px;
+    
+}
